@@ -1,0 +1,51 @@
+/* @charset 'UTF-8'; */
+
+/* Arrows */
+.slick-prev,
+.slick-next
+{
+    position: absolute;
+    top: 50%;
+
+    display: block;
+
+    width: 44px;
+    height: 44px;
+    padding: 0;
+    -webkit-transform: translate(0, -50%);
+    -ms-transform: translate(0, -50%);
+    transform: translate(0, -50%);
+
+    cursor: pointer;
+
+    border: none;
+    outline: none;
+    color: transparent;
+    background: #3f8cff;
+    z-index: 10;
+}
+.slick-prev:hover,
+.slick-prev:focus,
+.slick-next:hover,
+.slick-next:focus
+{
+    background: #3280f5;
+}
+.slick-prev
+{
+    left: -13px;
+}
+[dir='rtl'] .slick-prev
+{
+    right: -13px;
+    left: auto;
+}
+.slick-next
+{
+    right: 13px;
+}
+[dir='rtl'] .slick-next
+{
+    right: auto;
+    left: 13px;
+}
