@@ -95,7 +95,12 @@ $(function() {
 	// };
 
 	//* --- Burger --- *//
-	$('.header__burger').click(function(event) {
-		$('.header__burger, .burger__menu').toggleClass('active');
+	const burger = document.querySelector('.header__burger');
+	const burgerMenu = document.querySelector('.nav');
+	const burgerList = [burger, burgerMenu];
+	burger.addEventListener('click', () => {
+		burgerList.forEach((e) => {
+			e.classList.toggle('active');
+		})
 	});
 });
