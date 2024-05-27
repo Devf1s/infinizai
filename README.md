@@ -1,7 +1,7 @@
 ____
 # Infinizai
 ____
-[Site](https://1kiritos1.github.io/infinizai/)
+[Site](https://devf1s.github.io/infinizai/)
 
 ### Used:
 * ***HTML***
